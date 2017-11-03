@@ -1,7 +1,70 @@
 body {
-    background-color: #158593;
+    background-color: #37a0ae;
+}
+
+#mainHeader {
+    color: #0c2d50;
+    padding: 5%;
 }
 
 .container {
     margin: auto;
+}
+
+#contact_form {
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+    color: #0c2d50;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 2rem;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    padding-top: 3%;
+}
+
+.center label {
+    display: inline-block;
+    text-align: left;
+    font-size: 1.4rem;
+    margin-bottom: 1%;
+}
+
+textarea {
+    min-height: 6rem;
+    vertical-align: middle;
+    font-size: 1.1rem;
+}
+
+input {
+    line-height: 1rem;
+    font-size: 1.1rem;
+}
+
+.submission {
+    text-align: center;
+    margin: 0 auto;
+}
+
+input[type="submit"] {
+    font-size: 1.2rem;
+    padding: 2%;
+    cursor: pointer;
+    color: #0c2d50;
+    margin-top: 2%;
 }
