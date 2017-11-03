@@ -8,9 +8,39 @@
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body class="container">
+<body class="wrapper">
     <h1 id="mainHeader">Click Me</h1>
 
+    <div class="container">
+        <form id="contact_form" name="contact_form" action="mailto:cpaik1@ufl.edu" method="post">
+        <fieldset>
+      	    <legend>Form</legend>
+  				<p class="center">
+      			<label id="firstname" class="label" for="name">First Name</label>
+    				<input name="req_name" type="text" size="25" />
+                </p>
+
+                <p class="center">
+      			<label id="lastname" class="label" for="name">Last Name</label>
+    				<input name="req_name" type="text" size="25" />
+                </p>
+
+                <p class="center">
+      				<label id="email" class="label" for="email_address">Email</label>
+    					<input name="req_email_address" type="email" id="email_address" size="25" />
+                </p>
+
+      			<p class="center">
+      				<label class="label">Message</label>
+      				<textarea name="message" id="message"></textarea>
+      			</p>
+
+      			<p class="submission">
+      				<input type="submit" name="submit" value="Submit"/>
+      			</p>
+      	</fieldset>
+      </form>
+    </div>
 
     <script src="js/main.js"></script>
 </body>
