@@ -1,9 +1,9 @@
 body {
     background-color: #37a0ae;
+    color: #0c2d50;
 }
 
 #mainHeader {
-    color: #0c2d50;
     padding: 5%;
 }
 
@@ -15,7 +15,6 @@ body {
     text-align: left;
     display: block;
     margin: 0 auto;
-    color: #0c2d50;
 }
 
 fieldset {
@@ -67,4 +66,21 @@ input[type="submit"] {
     cursor: pointer;
     color: #0c2d50;
     margin-top: 2%;
+}
+
+h2 {
+    padding-left: 4%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+img {
+    padding-left: 4%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover
+}
+
+p {
+    padding-left: 4%;
 }
