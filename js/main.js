@@ -35,3 +35,12 @@ pineapple.addEventListener('mouseenter', function (event) {
         event.target.style.color = '';
     }, 500);
 }, false);
+
+//This event listens for whenever a key is pressed down on the page. When a key is pressed, a new article is created with the line "The key pressed is:" along with the key name.
+
+document.addEventListener('keypress', (event) => {
+    const keyName = event.key;
+    var myElement = document.createElement('article');
+    myElement.innerHTML = 'The key pressed is: ' + keyName;
+    document.getElementsByClassName('wrapper')[0].appendChild(myElement);
+});
