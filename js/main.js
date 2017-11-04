@@ -44,3 +44,9 @@ document.addEventListener('keypress', (event) => {
     myElement.innerHTML = 'The key pressed is: ' + keyName;
     document.getElementsByClassName('wrapper')[0].appendChild(myElement);
 });
+
+//This event listens for a mouse click on the image of the pineapple pizza. If clicked, it then changes the opacity of the image.
+
+document.getElementById('pizza').addEventListener('click', function (pizzaEvent) {
+    pizzaEvent.target.style.opacity = .5;
+}, false);
