@@ -33,7 +33,7 @@ legend {
 .center {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 30%;
     margin: auto;
     padding-top: 3%;
 }
@@ -63,7 +63,7 @@ input {
 
 input[type="submit"] {
     font-size: 1.2rem;
-    padding: 2%;
+    padding: 1%;
     cursor: pointer;
     color: #0c2d50;
     margin-top: 2%;

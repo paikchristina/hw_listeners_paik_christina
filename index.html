@@ -14,33 +14,35 @@
     <div class="container">
         <form id="contact_form" name="contact_form" action="mailto:cpaik1@ufl.edu" method="post">
         <fieldset>
-      	    <legend>Form</legend>
-  				<p class="center">
-      			<label id="firstname" class="label" for="name">First Name</label>
-    				<input name="req_name" type="text" size="25" />
+          <legend>Form</legend>
+                <p class="center">
+                  <label id="firstname" class="label" for="name">First Name</label>
+                  <input name="req_name" type="text" size="25" id="firstName" />
                 </p>
 
                 <p class="center">
-      			<label id="lastname" class="label" for="name">Last Name</label>
-    				<input name="req_name" type="text" size="25" />
+                    <label id="lastname" class="label" for="name">Last Name</label>
+                    <input name="req_name" type="text" size="25" id="lastName" />
                 </p>
 
                 <p class="center">
-      				<label id="email" class="label" for="email_address">Email</label>
-    					<input name="req_email_address" type="email" id="email_address" size="25" />
+                    <label id="email" class="label" for="email_address">Email</label>
+                    <input name="req_email_address" type="email" id="email_address" size="25" />
                 </p>
 
-      			<p class="center">
-      				<label class="label">Message</label>
-      				<textarea name="message" id="message"></textarea>
-      			</p>
+                <p class="center">
+                    <label class="label">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </p>
 
-      			<p class="submission">
-      				<input type="submit" name="submit" value="Submit"/>
-      			</p>
-      	</fieldset>
+                <p class="submission">
+                    <input type="submit" name="submit" value="Submit" id="submit"/>
+                </p>
+            </fieldset>
       </form>
     </div>
+
+    <div id="output-box"></div>
 
     <script src="js/main.js"></script>
 </body>
